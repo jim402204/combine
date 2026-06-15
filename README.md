@@ -16,7 +16,7 @@ xcodegen generate
 open CombinePractice.xcodeproj
 ```
 
-Xcode 會自動透過 SPM 解析 `CombineExt`，選擇模擬器後 Run。
+Xcode 會自動解析專案，選擇模擬器後 Run。
 
 ## 學習順序
 
@@ -51,7 +51,7 @@ Xcode 會自動透過 SPM 解析 `CombineExt`，選擇模擬器後 Run。
 
 ## 封裝檔搬移
 
-複製 `CombinePractice/Common/Combine/` 至目標專案，並加入 `CombineExt`（SPM 或 CocoaPods）。
+複製 `CombinePractice/Common/Combine/` 至目標專案即可，無第三方 Combine 依賴。
 
 ### 封裝 API 一覽
 

@@ -1,5 +1,4 @@
 import Combine
-import CombineExt
 import UIKit
 
 final class WithLatestFromDemoVC: DemoViewController {
@@ -10,7 +9,7 @@ final class WithLatestFromDemoVC: DemoViewController {
     private let source = CurrentValueSubject<String, Never>("初始")
 
     init() {
-        super.init(title: "WithLatestFrom", description: "trigger 發生時，帶上 source 最新值（CombineExt）。")
+        super.init(title: "WithLatestFrom", description: "trigger 發生時，帶上 source 最新值（專案內封裝）。")
     }
 
     required init?(coder: NSCoder) { fatalError("init(coder:) has not been implemented") }

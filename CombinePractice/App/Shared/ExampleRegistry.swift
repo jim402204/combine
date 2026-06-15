@@ -24,7 +24,7 @@ enum ExampleRegistry {
             .init(title: "SwitchToLatest", subtitle: "原理 + 常見情境導覽", makeViewController: { SwitchToLatestDemoVC() }),
             .init(title: "Catch Error", subtitle: "catch / replaceError", makeViewController: { CatchErrorDemoVC() }),
             .init(title: "Zip", subtitle: "同步兩流", makeViewController: { ZipDemoVC() }),
-            .init(title: "WithLatestFrom", subtitle: "CombineExt", makeViewController: { WithLatestFromDemoVC() }),
+            .init(title: "WithLatestFrom", subtitle: "trigger + source 最新值", makeViewController: { WithLatestFromDemoVC() }),
             .init(title: "HandleEvents", subtitle: "副作用與 debug", makeViewController: { HandleEventsDemoVC() }),
             .init(title: "Assign vs Sink", subtitle: "兩種訂閱方式", makeViewController: { AssignVsSinkDemoVC() }),
         ]),

@@ -4,18 +4,12 @@ options:
   deploymentTarget:
     iOS: "13.0"
   xcodeVersion: "15.0"
-packages:
-  CombineExt:
-    url: https://github.com/CombineCommunity/CombineExt.git
-    from: 1.8.0
 targets:
   CombinePractice:
     type: application
     platform: iOS
     sources:
       - path: CombinePractice
-    dependencies:
-      - package: CombineExt
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.combinepractice.app

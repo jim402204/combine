@@ -1,5 +1,4 @@
 import Combine
-import CombineExt
 import UIKit
 
 final class MergeMixedUISourcesDemoVC: DemoViewController {
