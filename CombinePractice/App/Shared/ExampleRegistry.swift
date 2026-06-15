@@ -50,5 +50,12 @@ enum ExampleRegistry {
                 makeViewController: { ListItemDemoVC() }
             ),
         ]),
+        ExampleSection(title: "Combine Week", items: [
+            .init(
+                title: "Action List 4",
+                subtitle: "weak().present + Weak extension 綁定風格",
+                makeViewController: { ActionList4DemoVC() }
+            ),
+        ]),
     ]
 }
