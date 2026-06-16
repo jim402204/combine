@@ -66,6 +66,7 @@
 		E62C12B8246561754633DE68 /* ActionList4DemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334792F16254DF4E2934875D /* ActionList4DemoVC.swift */; };
 		E78EB52F4896106B24BB611E /* HomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4473BEA48B33FEFCE94D047F /* HomeListViewController.swift */; };
 		EA81661911C86BC059F11855 /* SwitchToLatestSearchDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA40EA746E24F01B38D692A /* SwitchToLatestSearchDemoVC.swift */; };
+		F0C34E8FEA2688710F6F79FD /* CombineDebugDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93D999721F7268D92B433C7 /* CombineDebugDemoVC.swift */; };
 		F3E4AA21850F514FF6BFDEA8 /* ActionList2DemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A504F33ED638F03203462AF /* ActionList2DemoVC.swift */; };
 		F4663043F134F70BAADEB305 /* ShareDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03177D0E505C6BC6739C3B57 /* ShareDemoVC.swift */; };
 		F7CFF231C5FFCD43192495CB /* ActionList3ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1514B5C105DAB8D9012B3C2 /* ActionList3ViewModel.swift */; };
@@ -127,6 +128,7 @@
 		B4BD5FEF1953692DFB5BB3D5 /* MergeMixedUISourcesDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeMixedUISourcesDemoVC.swift; sourceTree = "<group>"; };
 		BE6EC5FB5B79EF9D18F1D108 /* SwitchToLatestDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchToLatestDemoVC.swift; sourceTree = "<group>"; };
 		C75D792AD6BC409827F5085F /* UIControl+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Combine.swift"; sourceTree = "<group>"; };
+		C93D999721F7268D92B433C7 /* CombineDebugDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineDebugDemoVC.swift; sourceTree = "<group>"; };
 		C980157C456A4B530E5095D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB059EEDE5E3953E78A21246 /* SubjectIntroDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectIntroDemoVC.swift; sourceTree = "<group>"; };
 		D78874F6BBC6CA1D6A2EA79A /* ListItemAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemAPI.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 		6A98D1A5186E864D52B930F6 /* Beginner */ = {
 			isa = PBXGroup;
 			children = (
+				C93D999721F7268D92B433C7 /* CombineDebugDemoVC.swift */,
 				3E0200DA23ACCCC969882163 /* JustPublisherDemoVC.swift */,
 				01FBEC2E88F8B87A1988748C /* SinkStoreDemoVC.swift */,
 				CB059EEDE5E3953E78A21246 /* SubjectIntroDemoVC.swift */,
@@ -351,13 +354,6 @@
 			path = ViewModelPractice;
 			sourceTree = "<group>";
 		};
-		"TEMP_2D77CD57-D857-4614-AD48-1C86DB05EBA5" /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Vendor;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -425,6 +421,7 @@
 				FE1BEB945361FC2D1F97BBED /* AssignVsSinkDemoVC.swift in Sources */,
 				18E3BBB0116826A1F5E1336E /* ButtonThrottleDemoVC.swift in Sources */,
 				0270923ACFB122FDAD632D37 /* CatchErrorDemoVC.swift in Sources */,
+				F0C34E8FEA2688710F6F79FD /* CombineDebugDemoVC.swift in Sources */,
 				405E7A90C4F4F0C824E6E68E /* CombineLatestButtonEnableDemoVC.swift in Sources */,
 				264E97868C0B8B48918A8F5C /* Compatible.swift in Sources */,
 				BBD8C59E7EB0A6E8A8A87D61 /* CounterViewModel.swift in Sources */,

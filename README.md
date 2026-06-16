@@ -20,7 +20,7 @@ Xcode 會自動解析專案，選擇模擬器後 Run。
 
 ## 學習順序
 
-1. **入門** — sink/store、Just、Subject
+1. **入門** — sink/store、Just、Subject、**Combine Debug**
 2. **封裝實戰** — UIKit → Publisher、ViewModelType
 3. **原生 Combine 進階** — operator 與情境
 
@@ -31,6 +31,7 @@ Xcode 會自動解析專案，選擇模擬器後 Run。
 | Sink & Store | 開始/取消訂閱 | log 每秒 tick 或停止 |
 | Just Publisher | 執行 | log 印出 Just 30 與 Sequence |
 | Subject 入門 | 進頁面後發送 | CurrentValue 立即印初始值 |
+| Combine Debug | 依序按三個按鈕 | ① print ② debug（含行號）③ handleEvents 寫入 eventLog |
 | Button Throttle | 連點按鈕 | 0.5s 內只觸發一次 |
 | Switch | 切換開關 | 狀態 label 與 log 更新 |
 | Segmented Control | 切換 segment | log 印 index |
@@ -60,6 +61,7 @@ Xcode 會自動解析專案，選擇模擬器後 Run。
 | `ViewModelType` |
 | `transform(from:)` |
 | `onThrottle()` |
+| `debug()` |
 | `sinkOnMain()` |
 | `publisher(for:)` |
 | `isOnPublisher()` |
@@ -72,7 +74,7 @@ Xcode 會自動解析專案，選擇模擬器後 Run。
 CombinePractice/
 ├── Common/Combine/     # 封裝原始碼
 └── App/
-    ├── Beginner/       # 入門 3 個
+    ├── Beginner/       # 入門 4 個
     ├── EncapsulationDemo/  # 封裝 5 個
     └── Advanced/       # 進階 12 個
 ```

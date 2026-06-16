@@ -6,6 +6,7 @@ enum ExampleRegistry {
             .init(title: "Sink & Store", subtitle: "訂閱與取消訂閱", makeViewController: { SinkStoreDemoVC() }),
             .init(title: "Just Publisher", subtitle: "建立最簡單的 Publisher", makeViewController: { JustPublisherDemoVC() }),
             .init(title: "Subject 入門", subtitle: "Passthrough vs CurrentValue", makeViewController: { SubjectIntroDemoVC() }),
+            .init(title: "Combine Debug", subtitle: "print() / debug() / handleEvents", makeViewController: { CombineDebugDemoVC() }),
         ]),
         ExampleSection(title: "封裝實戰", items: [
             .init(title: "Button Throttle", subtitle: "publisher(for:) + onThrottle()", makeViewController: { ButtonThrottleDemoVC() }),

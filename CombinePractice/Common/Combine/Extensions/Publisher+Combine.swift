@@ -9,13 +9,26 @@ extension Publisher {
         throttle(for: .seconds(settings.seconds), scheduler: scheduler, latest: settings.isLatest)
     }
 
+    /// 封裝 Combine 原生 `print()`，label 自動帶呼叫端檔名與行號。
+    ///
+    /// ```swift
+    /// somePublisher
+    ///     .debug("[tag]")
+    ///     .sink { value in ... }
+    ///     .store(in: &cancellables)
+    /// ```
+    ///
+    /// Console 範例：
+    /// `[tag]: SomeFile.swift-line:123: receive subscription: (...)`
     func debug(
         _ prefix: String = "",
         file: String = #file,
         line: Int = #line,
         to stream: TextOutputStream? = nil
     ) -> Publishers.Print<Self> {
-        print("\(prefix): \(URL(fileURLWithPath: file).lastPathComponent)-line:\(line)", to: stream)
+        let location = "\(URL(fileURLWithPath: file).lastPathComponent)-line:\(line)"
+        let label = prefix.isEmpty ? location : "\(prefix): \(location)"
+        return print(label, to: stream)
     }
 }
 
