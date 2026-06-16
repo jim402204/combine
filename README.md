@@ -50,24 +50,6 @@ Xcode 會自動解析專案，選擇模擬器後 Run。
 | HandleEvents | 執行 | 印 subscription 生命週期 |
 | Assign vs Sink | 更新 | 兩 label 同步更新 |
 
-## 封裝檔搬移
-
-複製 `CombinePractice/Common/Combine/` 至目標專案即可，無第三方 Combine 依賴。
-
-### 封裝 API 一覽
-
-| API |
-|---|
-| `ViewModelType` |
-| `transform(from:)` |
-| `onThrottle()` |
-| `debug()` |
-| `sinkOnMain()` |
-| `publisher(for:)` |
-| `isOnPublisher()` |
-| `isReachBottomPublisher()` |
-| `Compatible` / `weak()` |
-
 ## 專案結構
 
 ```
